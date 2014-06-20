@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1C0BABD195417B0007C1A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BABC195417B0007C1A52 /* Foundation.framework */; };
+		C1C0BABF195417B0007C1A52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BABE195417B0007C1A52 /* CoreGraphics.framework */; };
+		C1C0BAC1195417B0007C1A52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BAC0195417B0007C1A52 /* UIKit.framework */; };
+		C1C0BAC7195417B0007C1A52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BAC5195417B0007C1A52 /* InfoPlist.strings */; };
+		C1C0BAC9195417B0007C1A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0BAC8195417B0007C1A52 /* main.m */; };
+		C1C0BACD195417B0007C1A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0BACC195417B0007C1A52 /* AppDelegate.m */; };
+		C1C0BACF195417B0007C1A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BACE195417B0007C1A52 /* Images.xcassets */; };
+		C1C0BAD6195417B1007C1A52 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BAD5195417B1007C1A52 /* XCTest.framework */; };
+		C1C0BAD7195417B1007C1A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BABC195417B0007C1A52 /* Foundation.framework */; };
+		C1C0BAD8195417B1007C1A52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BAC0195417B0007C1A52 /* UIKit.framework */; };
+		C1C0BAE0195417B1007C1A52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BADE195417B1007C1A52 /* InfoPlist.strings */; };
+		C1C0BAE2195417B1007C1A52 /* IBTMapLocationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0BAE1195417B1007C1A52 /* IBTMapLocationViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C0BAD9195417B1007C1A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C0BAB1195417AF007C1A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C0BAB8195417B0007C1A52;
+			remoteInfo = IBTMapLocationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1C0BAB9195417B0007C1A52 /* IBTMapLocationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBTMapLocationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C0BABC195417B0007C1A52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1C0BABE195417B0007C1A52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1C0BAC0195417B0007C1A52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1C0BAC4195417B0007C1A52 /* IBTMapLocationView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBTMapLocationView-Info.plist"; sourceTree = "<group>"; };
+		C1C0BAC6195417B0007C1A52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1C0BAC8195417B0007C1A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1C0BACA195417B0007C1A52 /* IBTMapLocationView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBTMapLocationView-Prefix.pch"; sourceTree = "<group>"; };
+		C1C0BACB195417B0007C1A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1C0BACC195417B0007C1A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1C0BACE195417B0007C1A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1C0BAD4195417B1007C1A52 /* IBTMapLocationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBTMapLocationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C0BAD5195417B1007C1A52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1C0BADD195417B1007C1A52 /* IBTMapLocationViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBTMapLocationViewTests-Info.plist"; sourceTree = "<group>"; };
+		C1C0BADF195417B1007C1A52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1C0BAE1195417B1007C1A52 /* IBTMapLocationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBTMapLocationViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C0BAB6195417B0007C1A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C0BABF195417B0007C1A52 /* CoreGraphics.framework in Frameworks */,
+				C1C0BAC1195417B0007C1A52 /* UIKit.framework in Frameworks */,
+				C1C0BABD195417B0007C1A52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C0BAD1195417B1007C1A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C0BAD6195417B1007C1A52 /* XCTest.framework in Frameworks */,
+				C1C0BAD8195417B1007C1A52 /* UIKit.framework in Frameworks */,
+				C1C0BAD7195417B1007C1A52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C0BAB0195417AF007C1A52 = {
+			isa = PBXGroup;
+			children = (
+				C1C0BAC2195417B0007C1A52 /* IBTMapLocationView */,
+				C1C0BADB195417B1007C1A52 /* IBTMapLocationViewTests */,
+				C1C0BABB195417B0007C1A52 /* Frameworks */,
+				C1C0BABA195417B0007C1A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C0BABA195417B0007C1A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0BAB9195417B0007C1A52 /* IBTMapLocationView.app */,
+				C1C0BAD4195417B1007C1A52 /* IBTMapLocationViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C0BABB195417B0007C1A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0BABC195417B0007C1A52 /* Foundation.framework */,
+				C1C0BABE195417B0007C1A52 /* CoreGraphics.framework */,
+				C1C0BAC0195417B0007C1A52 /* UIKit.framework */,
+				C1C0BAD5195417B1007C1A52 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1C0BAC2195417B0007C1A52 /* IBTMapLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0BACB195417B0007C1A52 /* AppDelegate.h */,
+				C1C0BACC195417B0007C1A52 /* AppDelegate.m */,
+				C1C0BACE195417B0007C1A52 /* Images.xcassets */,
+				C1C0BAC3195417B0007C1A52 /* Supporting Files */,
+			);
+			path = IBTMapLocationView;
+			sourceTree = "<group>";
+		};
+		C1C0BAC3195417B0007C1A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0BAC4195417B0007C1A52 /* IBTMapLocationView-Info.plist */,
+				C1C0BAC5195417B0007C1A52 /* InfoPlist.strings */,
+				C1C0BAC8195417B0007C1A52 /* main.m */,
+				C1C0BACA195417B0007C1A52 /* IBTMapLocationView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C0BADB195417B1007C1A52 /* IBTMapLocationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0BAE1195417B1007C1A52 /* IBTMapLocationViewTests.m */,
+				C1C0BADC195417B1007C1A52 /* Supporting Files */,
+			);
+			path = IBTMapLocationViewTests;
+			sourceTree = "<group>";
+		};
+		C1C0BADC195417B1007C1A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0BADD195417B1007C1A52 /* IBTMapLocationViewTests-Info.plist */,
+				C1C0BADE195417B1007C1A52 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C0BAB8195417B0007C1A52 /* IBTMapLocationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C0BAE5195417B1007C1A52 /* Build configuration list for PBXNativeTarget "IBTMapLocationView" */;
+			buildPhases = (
+				C1C0BAB5195417B0007C1A52 /* Sources */,
+				C1C0BAB6195417B0007C1A52 /* Frameworks */,
+				C1C0BAB7195417B0007C1A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBTMapLocationView;
+			productName = IBTMapLocationView;
+			productReference = C1C0BAB9195417B0007C1A52 /* IBTMapLocationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C0BAD3195417B1007C1A52 /* IBTMapLocationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C0BAE8195417B1007C1A52 /* Build configuration list for PBXNativeTarget "IBTMapLocationViewTests" */;
+			buildPhases = (
+				C1C0BAD0195417B1007C1A52 /* Sources */,
+				C1C0BAD1195417B1007C1A52 /* Frameworks */,
+				C1C0BAD2195417B1007C1A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C0BADA195417B1007C1A52 /* PBXTargetDependency */,
+			);
+			name = IBTMapLocationViewTests;
+			productName = IBTMapLocationViewTests;
+			productReference = C1C0BAD4195417B1007C1A52 /* IBTMapLocationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C0BAB1195417AF007C1A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Xummer;
+				TargetAttributes = {
+					C1C0BAD3195417B1007C1A52 = {
+						TestTargetID = C1C0BAB8195417B0007C1A52;
+					};
+				};
+			};
+			buildConfigurationList = C1C0BAB4195417AF007C1A52 /* Build configuration list for PBXProject "IBTMapLocationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1C0BAB0195417AF007C1A52;
+			productRefGroup = C1C0BABA195417B0007C1A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C0BAB8195417B0007C1A52 /* IBTMapLocationView */,
+				C1C0BAD3195417B1007C1A52 /* IBTMapLocationViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C0BAB7195417B0007C1A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C0BAC7195417B0007C1A52 /* InfoPlist.strings in Resources */,
+				C1C0BACF195417B0007C1A52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C0BAD2195417B1007C1A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C0BAE0195417B1007C1A52 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C0BAB5195417B0007C1A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C0BACD195417B0007C1A52 /* AppDelegate.m in Sources */,
+				C1C0BAC9195417B0007C1A52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C0BAD0195417B1007C1A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C0BAE2195417B1007C1A52 /* IBTMapLocationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C0BADA195417B1007C1A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C0BAB8195417B0007C1A52 /* IBTMapLocationView */;
+			targetProxy = C1C0BAD9195417B1007C1A52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C0BAC5195417B0007C1A52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C0BAC6195417B0007C1A52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1C0BADE195417B1007C1A52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C0BADF195417B1007C1A52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C0BAE3195417B1007C1A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1C0BAE4195417B1007C1A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C0BAE6195417B1007C1A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBTMapLocationView/IBTMapLocationView-Prefix.pch";
+				INFOPLIST_FILE = "IBTMapLocationView/IBTMapLocationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1C0BAE7195417B1007C1A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBTMapLocationView/IBTMapLocationView-Prefix.pch";
+				INFOPLIST_FILE = "IBTMapLocationView/IBTMapLocationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1C0BAE9195417B1007C1A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IBTMapLocationView.app/IBTMapLocationView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBTMapLocationView/IBTMapLocationView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IBTMapLocationViewTests/IBTMapLocationViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1C0BAEA195417B1007C1A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IBTMapLocationView.app/IBTMapLocationView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBTMapLocationView/IBTMapLocationView-Prefix.pch";
+				INFOPLIST_FILE = "IBTMapLocationViewTests/IBTMapLocationViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C0BAB4195417AF007C1A52 /* Build configuration list for PBXProject "IBTMapLocationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C0BAE3195417B1007C1A52 /* Debug */,
+				C1C0BAE4195417B1007C1A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C0BAE5195417B1007C1A52 /* Build configuration list for PBXNativeTarget "IBTMapLocationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C0BAE6195417B1007C1A52 /* Debug */,
+				C1C0BAE7195417B1007C1A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1C0BAE8195417B1007C1A52 /* Build configuration list for PBXNativeTarget "IBTMapLocationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C0BAE9195417B1007C1A52 /* Debug */,
+				C1C0BAEA195417B1007C1A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C0BAB1195417AF007C1A52 /* Project object */;
+}
