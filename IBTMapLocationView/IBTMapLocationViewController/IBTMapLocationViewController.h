@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@class IBTMapLocationViewController;
+@protocol IBTMapLocationDelegate <NSObject>
+
+- (void)locationViewCtrlCancleButtonTapped:(IBTMapLocationViewController *)locationVCtrl;
+- (void)locationViewCtrl:(IBTMapLocationViewController *)locationVCtrl didSelectLocation:(id)location;
+
+@end
+
 @interface IBTMapLocationViewController : UIViewController
+
+@property (weak, nonatomic) id <IBTMapLocationDelegate> delegate;
 
 @end

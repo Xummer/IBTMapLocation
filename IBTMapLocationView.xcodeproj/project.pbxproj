@@ -19,6 +19,14 @@
 		C1C0BAD8195417B1007C1A52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BAC0195417B0007C1A52 /* UIKit.framework */; };
 		C1C0BAE0195417B1007C1A52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BADE195417B1007C1A52 /* InfoPlist.strings */; };
 		C1C0BAE2195417B1007C1A52 /* IBTMapLocationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0BAE1195417B1007C1A52 /* IBTMapLocationViewTests.m */; };
+		C1C0BAEE195419F8007C1A52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0BAED195419F8007C1A52 /* ViewController.m */; };
+		C1C0BAF119541A11007C1A52 /* IBTMapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0BAF019541A11007C1A52 /* IBTMapLocationViewController.m */; };
+		C1C0BAF419541EA9007C1A52 /* IBTLocationPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C0BAF319541EA9007C1A52 /* IBTLocationPinView.m */; };
+		C1C0BAFB19541F45007C1A52 /* located_1_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BAF619541F45007C1A52 /* located_1_ios7@2x.png */; };
+		C1C0BAFC19541F45007C1A52 /* located_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BAF719541F45007C1A52 /* located_2@2x.png */; };
+		C1C0BAFD19541F45007C1A52 /* located_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BAF819541F45007C1A52 /* located_3@2x.png */; };
+		C1C0BAFE19541F45007C1A52 /* location_back_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BAF919541F45007C1A52 /* location_back_icon@2x.png */; };
+		C1C0BAFF19541F45007C1A52 /* location_blue_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C0BAFA19541F45007C1A52 /* location_blue_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,17 @@
 		C1C0BADD195417B1007C1A52 /* IBTMapLocationViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBTMapLocationViewTests-Info.plist"; sourceTree = "<group>"; };
 		C1C0BADF195417B1007C1A52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1C0BAE1195417B1007C1A52 /* IBTMapLocationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBTMapLocationViewTests.m; sourceTree = "<group>"; };
+		C1C0BAEC195419F8007C1A52 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1C0BAED195419F8007C1A52 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1C0BAEF19541A11007C1A52 /* IBTMapLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTMapLocationViewController.h; sourceTree = "<group>"; };
+		C1C0BAF019541A11007C1A52 /* IBTMapLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTMapLocationViewController.m; sourceTree = "<group>"; };
+		C1C0BAF219541EA9007C1A52 /* IBTLocationPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTLocationPinView.h; sourceTree = "<group>"; };
+		C1C0BAF319541EA9007C1A52 /* IBTLocationPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTLocationPinView.m; sourceTree = "<group>"; };
+		C1C0BAF619541F45007C1A52 /* located_1_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "located_1_ios7@2x.png"; sourceTree = "<group>"; };
+		C1C0BAF719541F45007C1A52 /* located_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "located_2@2x.png"; sourceTree = "<group>"; };
+		C1C0BAF819541F45007C1A52 /* located_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "located_3@2x.png"; sourceTree = "<group>"; };
+		C1C0BAF919541F45007C1A52 /* location_back_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location_back_icon@2x.png"; sourceTree = "<group>"; };
+		C1C0BAFA19541F45007C1A52 /* location_blue_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location_blue_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +128,8 @@
 			children = (
 				C1C0BACB195417B0007C1A52 /* AppDelegate.h */,
 				C1C0BACC195417B0007C1A52 /* AppDelegate.m */,
+				C1C0BAEC195419F8007C1A52 /* ViewController.h */,
+				C1C0BAED195419F8007C1A52 /* ViewController.m */,
 				C1C0BAEB19541805007C1A52 /* IBTMapLocationViewController */,
 				C1C0BACE195417B0007C1A52 /* Images.xcassets */,
 				C1C0BAC3195417B0007C1A52 /* Supporting Files */,
@@ -148,8 +169,25 @@
 		C1C0BAEB19541805007C1A52 /* IBTMapLocationViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C1C0BAEF19541A11007C1A52 /* IBTMapLocationViewController.h */,
+				C1C0BAF019541A11007C1A52 /* IBTMapLocationViewController.m */,
+				C1C0BAF219541EA9007C1A52 /* IBTLocationPinView.h */,
+				C1C0BAF319541EA9007C1A52 /* IBTLocationPinView.m */,
+				C1C0BAF519541F45007C1A52 /* Resource */,
 			);
 			path = IBTMapLocationViewController;
+			sourceTree = "<group>";
+		};
+		C1C0BAF519541F45007C1A52 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0BAF619541F45007C1A52 /* located_1_ios7@2x.png */,
+				C1C0BAF719541F45007C1A52 /* located_2@2x.png */,
+				C1C0BAF819541F45007C1A52 /* located_3@2x.png */,
+				C1C0BAF919541F45007C1A52 /* location_back_icon@2x.png */,
+				C1C0BAFA19541F45007C1A52 /* location_blue_icon@2x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +266,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1C0BAC7195417B0007C1A52 /* InfoPlist.strings in Resources */,
+				C1C0BAFB19541F45007C1A52 /* located_1_ios7@2x.png in Resources */,
+				C1C0BAFC19541F45007C1A52 /* located_2@2x.png in Resources */,
 				C1C0BACF195417B0007C1A52 /* Images.xcassets in Resources */,
+				C1C0BAFD19541F45007C1A52 /* located_3@2x.png in Resources */,
+				C1C0BAFE19541F45007C1A52 /* location_back_icon@2x.png in Resources */,
+				C1C0BAFF19541F45007C1A52 /* location_blue_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C0BAF419541EA9007C1A52 /* IBTLocationPinView.m in Sources */,
+				C1C0BAEE195419F8007C1A52 /* ViewController.m in Sources */,
 				C1C0BACD195417B0007C1A52 /* AppDelegate.m in Sources */,
+				C1C0BAF119541A11007C1A52 /* IBTMapLocationViewController.m in Sources */,
 				C1C0BAC9195417B0007C1A52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

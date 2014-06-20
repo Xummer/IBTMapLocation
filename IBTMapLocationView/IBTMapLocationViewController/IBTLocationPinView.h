@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define IBT_LOCATION_PIN_DEFAULT_WIDTH      26
+
 @interface IBTLocationPinView : UIView
 
 @end
