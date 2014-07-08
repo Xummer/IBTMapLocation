@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CD86262DEB24933A7B754FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08341138F76945A9B9DF0800 /* libPods.a */; };
+		C10B6647196BCCC700C8BACB /* IBTLocationEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C10B6646196BCCC700C8BACB /* IBTLocationEntity.m */; };
+		C1177AB9196B8C6C005821F6 /* located_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1177AB8196B8C6C005821F6 /* located_1@2x.png */; };
 		C1C0BABD195417B0007C1A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BABC195417B0007C1A52 /* Foundation.framework */; };
 		C1C0BABF195417B0007C1A52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BABE195417B0007C1A52 /* CoreGraphics.framework */; };
 		C1C0BAC1195417B0007C1A52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0BAC0195417B0007C1A52 /* UIKit.framework */; };
@@ -40,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08341138F76945A9B9DF0800 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E6651B08A34B8BB25D4BA1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C10B6645196BCCC700C8BACB /* IBTLocationEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTLocationEntity.h; sourceTree = "<group>"; };
+		C10B6646196BCCC700C8BACB /* IBTLocationEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTLocationEntity.m; sourceTree = "<group>"; };
+		C1177AB8196B8C6C005821F6 /* located_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "located_1@2x.png"; sourceTree = "<group>"; };
 		C1C0BAB9195417B0007C1A52 /* IBTMapLocationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBTMapLocationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C0BABC195417B0007C1A52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1C0BABE195417B0007C1A52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +85,7 @@
 				C1C0BABF195417B0007C1A52 /* CoreGraphics.framework in Frameworks */,
 				C1C0BAC1195417B0007C1A52 /* UIKit.framework in Frameworks */,
 				C1C0BABD195417B0007C1A52 /* Foundation.framework in Frameworks */,
+				7CD86262DEB24933A7B754FB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +109,7 @@
 				C1C0BADB195417B1007C1A52 /* IBTMapLocationViewTests */,
 				C1C0BABB195417B0007C1A52 /* Frameworks */,
 				C1C0BABA195417B0007C1A52 /* Products */,
+				20E6651B08A34B8BB25D4BA1 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +129,7 @@
 				C1C0BABE195417B0007C1A52 /* CoreGraphics.framework */,
 				C1C0BAC0195417B0007C1A52 /* UIKit.framework */,
 				C1C0BAD5195417B1007C1A52 /* XCTest.framework */,
+				08341138F76945A9B9DF0800 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,6 +184,8 @@
 				C1C0BAF019541A11007C1A52 /* IBTMapLocationViewController.m */,
 				C1C0BAF219541EA9007C1A52 /* IBTLocationPinView.h */,
 				C1C0BAF319541EA9007C1A52 /* IBTLocationPinView.m */,
+				C10B6645196BCCC700C8BACB /* IBTLocationEntity.h */,
+				C10B6646196BCCC700C8BACB /* IBTLocationEntity.m */,
 				C1C0BAF519541F45007C1A52 /* Resource */,
 			);
 			path = IBTMapLocationViewController;
@@ -181,6 +194,7 @@
 		C1C0BAF519541F45007C1A52 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C1177AB8196B8C6C005821F6 /* located_1@2x.png */,
 				C1C0BAF619541F45007C1A52 /* located_1_ios7@2x.png */,
 				C1C0BAF719541F45007C1A52 /* located_2@2x.png */,
 				C1C0BAF819541F45007C1A52 /* located_3@2x.png */,
@@ -197,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1C0BAE5195417B1007C1A52 /* Build configuration list for PBXNativeTarget "IBTMapLocationView" */;
 			buildPhases = (
+				4B56D4A64322468280A5F54B /* Check Pods Manifest.lock */,
 				C1C0BAB5195417B0007C1A52 /* Sources */,
 				C1C0BAB6195417B0007C1A52 /* Frameworks */,
 				C1C0BAB7195417B0007C1A52 /* Resources */,
+				AF94D65328DD4CF1A03D6864 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1C0BAC7195417B0007C1A52 /* InfoPlist.strings in Resources */,
+				C1177AB9196B8C6C005821F6 /* located_1@2x.png in Resources */,
 				C1C0BAFB19541F45007C1A52 /* located_1_ios7@2x.png in Resources */,
 				C1C0BAFC19541F45007C1A52 /* located_2@2x.png in Resources */,
 				C1C0BACF195417B0007C1A52 /* Images.xcassets in Resources */,
@@ -285,6 +302,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B56D4A64322468280A5F54B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF94D65328DD4CF1A03D6864 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1C0BAB5195417B0007C1A52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -293,6 +343,7 @@
 				C1C0BAF419541EA9007C1A52 /* IBTLocationPinView.m in Sources */,
 				C1C0BAEE195419F8007C1A52 /* ViewController.m in Sources */,
 				C1C0BACD195417B0007C1A52 /* AppDelegate.m in Sources */,
+				C10B6647196BCCC700C8BACB /* IBTLocationEntity.m in Sources */,
 				C1C0BAF119541A11007C1A52 /* IBTMapLocationViewController.m in Sources */,
 				C1C0BAC9195417B0007C1A52 /* main.m in Sources */,
 			);
@@ -408,26 +459,34 @@
 		};
 		C1C0BAE6195417B1007C1A52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E6651B08A34B8BB25D4BA1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IBTMapLocationView/IBTMapLocationView-Prefix.pch";
 				INFOPLIST_FILE = "IBTMapLocationView/IBTMapLocationView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6C433C2D-C147-40FD-B0BC-8B865CBC8444";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		C1C0BAE7195417B1007C1A52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E6651B08A34B8BB25D4BA1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IBTMapLocationView/IBTMapLocationView-Prefix.pch";
 				INFOPLIST_FILE = "IBTMapLocationView/IBTMapLocationView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6C433C2D-C147-40FD-B0BC-8B865CBC8444";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -491,6 +550,7 @@
 				C1C0BAE7195417B1007C1A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1C0BAE8195417B1007C1A52 /* Build configuration list for PBXNativeTarget "IBTMapLocationViewTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +559,7 @@
 				C1C0BAEA195417B1007C1A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

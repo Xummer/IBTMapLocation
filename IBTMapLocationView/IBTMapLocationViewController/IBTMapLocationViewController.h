@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IBTLocationEntity.h"
 
 @class IBTMapLocationViewController;
 @protocol IBTMapLocationDelegate <NSObject>
 
+@optional
 - (void)locationViewCtrlCancleButtonTapped:(IBTMapLocationViewController *)locationVCtrl;
-- (void)locationViewCtrl:(IBTMapLocationViewController *)locationVCtrl didSelectLocation:(id)location;
+- (void)locationViewCtrl:(IBTMapLocationViewController *)locationVCtrl didSelectLocation:(IBTLocationEntity *)location;
 
 @end
 

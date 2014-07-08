@@ -39,13 +39,43 @@
 
 #pragma mark - Private Method
 - (void)_init {
-    self.pingImgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"located_1_ios7"]];
-    self.leftShadowView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"located2"]];
-    self.bottomShadowView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"located3"]];
+    self.pingImgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"located_1"]];
+    self.leftShadowView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"located_2"]];
+    self.bottomShadowView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"located_3"]];
     
     [self addSubview:_bottomShadowView];
     [self addSubview:_leftShadowView];
     [self addSubview:_pingImgView];
+}
+
+#pragma mark - Public Method
+- (void)upAndDownAnimation {
+    // UIViewAnimationOptionCurveEaseIn slow -> fast
+    // UIViewAnimationOptionCurveEaseOut fast -> slow
+    
+    void(^downAnimation)(BOOL) = ^(BOOL finished) {
+        [UIView animateWithDuration:.26f
+                              delay:0
+                            options:UIViewAnimationOptionCurveEaseIn
+                         animations:^{
+                             _pingImgView.frame = _bottomShadowView.frame;
+                             
+                             _leftShadowView.alpha = 1;
+                         }
+                         completion:NULL];
+    };
+    
+    [UIView animateWithDuration:.26f
+                          delay:0
+                        options:UIViewAnimationOptionCurveEaseIn
+                     animations:^{
+                         CGRect rect = _pingImgView.frame;
+                         rect.origin.y -= 15;
+                         _pingImgView.frame = rect;
+                         
+                         _leftShadowView.alpha = 0;
+                     }
+                     completion:downAnimation];
 }
 
 @end
