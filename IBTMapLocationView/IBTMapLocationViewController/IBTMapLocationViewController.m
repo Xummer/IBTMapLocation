@@ -87,7 +87,7 @@ static NSString *IBTLocationCellID = @"LocationCell";
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
     
-    // Do any additional setup after loading the view.
+    [self initialData];
     [self setupSubviews];
 }
 
