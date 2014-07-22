@@ -183,6 +183,7 @@ static NSString *IBTLocationCellID = @"LocationCell";
     };
     self.tableView =
     [[UITableView alloc] initWithFrame:rect style:UITableViewStylePlain];
+    _tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _tableView.rowHeight = 50;
     [_tableView registerClass:[IBTLocationOptionsCell class]
        forCellReuseIdentifier:IBTLocationCellID];
